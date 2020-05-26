@@ -24,6 +24,7 @@
 		8B5A61B6240D4BA8002357D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B5A61B9240D4BA8002357D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B5A61BB240D4BA8002357D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B5AD57E247D5AF400A53567 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		8B5A61A1240D4BA5002357D7 = {
 			isa = PBXGroup;
 			children = (
+				8B5AD57E247D5AF400A53567 /* README.md */,
 				8B5A61AC240D4BA6002357D7 /* UIKitApp */,
 				8B5A61AB240D4BA6002357D7 /* Products */,
 			);
@@ -56,15 +58,23 @@
 		8B5A61AC240D4BA6002357D7 /* UIKitApp */ = {
 			isa = PBXGroup;
 			children = (
-				8B5A61AD240D4BA6002357D7 /* AppDelegate.swift */,
-				8B5A61AF240D4BA6002357D7 /* SceneDelegate.swift */,
+				8B5AD57D247D5A3B00A53567 /* Supporting Files */,
 				8B5A61B1240D4BA6002357D7 /* ViewController.swift */,
 				8B5A61B3240D4BA6002357D7 /* Main.storyboard */,
+			);
+			path = UIKitApp;
+			sourceTree = "<group>";
+		};
+		8B5AD57D247D5A3B00A53567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B5A61AD240D4BA6002357D7 /* AppDelegate.swift */,
+				8B5A61AF240D4BA6002357D7 /* SceneDelegate.swift */,
 				8B5A61B6240D4BA8002357D7 /* Assets.xcassets */,
 				8B5A61B8240D4BA8002357D7 /* LaunchScreen.storyboard */,
 				8B5A61BB240D4BA8002357D7 /* Info.plist */,
 			);
-			path = UIKitApp;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -285,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIKitApp/Info.plist;
+				INFOPLIST_FILE = "UIKitApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +312,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = UIKitApp/Info.plist;
+				INFOPLIST_FILE = "UIKitApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
